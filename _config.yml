@@ -4,9 +4,9 @@
 
 # Site
 title: zcjmike's blog
-subtitle:
+subtitle: To Be A Better Man!
 description: fe | HTML | CSS | JavaSript | react | redux | vue | js
-author: zhangcongjie | mike zhang
+author: Congjie Zhang | zhangcongjie | mike zhang
 language: zh-cn
 timezone:
 
@@ -17,11 +17,44 @@ root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
+#Custom Setting Start
+# Site settings
+SEOTitle: Congjie的博客 | zcjmike's blog
+header-img: img/home-bg.jpg
+email: 303327829@qq.com
+keyword:
+
+# Disqus settings
+disqus_username: MikeZhang
+# Duoshuo settings
+# duoshuo_username: 残月灬渐隐
+duoshuo_share: true
+
+# Analytics settings
+# Baidu Analytics
+#ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+#ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "我要成为魔法师!"
+sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# Friend
+friends: []
+#Custom Setting End
+
 # Directory
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: i_dont_wanna_use_default_archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -34,13 +67,13 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
@@ -63,11 +96,11 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: huxblog
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repository: git@github.com:ZhangCongjie/zhangcongjie.github.io.git
-  branch: gh-pages
+  branch: master
