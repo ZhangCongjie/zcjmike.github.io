@@ -24,10 +24,22 @@ header-img: img/home-bg.jpg
 email: 303327829@qq.com
 keyword:
 
+# SNS settings
+# RSS: false
+# weibo_username:
+# zhihu_username:
+# github_username:
+# twitter_username:
+# facebook_username:
+# linkedin_username:
+
+# Build settings
+# anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
 # Disqus settings
-disqus_username: MikeZhang
+# disqus_username: MikeZhang
 # Duoshuo settings
-# duoshuo_username: 残月灬渐隐
+duoshuo_username: 残月灬渐隐
 duoshuo_share: true
 
 # Analytics settings
@@ -40,14 +52,14 @@ duoshuo_share: true
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "我要成为魔法师!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # Friend
-friends: []
+# friends: []
 #Custom Setting End
 
 # Directory
