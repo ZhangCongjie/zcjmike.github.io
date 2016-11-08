@@ -26,9 +26,9 @@ keyword:
 
 # SNS settings
 # RSS: false
-# weibo_username:
-# zhihu_username:
-# github_username:
+weibo_username: 1717971025
+zhihu_username: zhang-cong-jie
+github_username: ZhangCongjie
 # twitter_username:
 # facebook_username:
 # linkedin_username:
@@ -37,10 +37,10 @@ keyword:
 # anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 # Disqus settings
-# disqus_username: MikeZhang
+# disqus_username: disqus_nSBjNalYwM
 # Duoshuo settings
-duoshuo_username: 残月灬渐隐
-duoshuo_share: true
+duoshuo_username: zcjmike
+duoshuo_share: false
 
 # Analytics settings
 # Baidu Analytics
